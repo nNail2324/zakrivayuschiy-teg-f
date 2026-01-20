@@ -1,1 +1,35 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter', sans-serif;
+    --main-font-size: 18px;
+    --main-title-weight: 'wght' 710;
+    --main-description-weight: 'wght' 410;
+    --accent-font: 'PressStart2P', monospace;
+    --accent-text-weight: 400;
+
+    --white: #fff;
+    --black: #000;
+    --red: #ff0000;
+    --bg-color: var(--white);
+    --bg-gradient: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), 
+        repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+        linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+    --text-color: var(--black);
+    --label-stroke-color: var(--black);
+
+    --heart-contour-color: var(--black);
+    --sparks-color: var(--red);
+    --heart-black-fill-color: var(--black);
+    --heart-red-fill-color: var(--red);
+
+    --inline-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+    --black-border: 2px solid var(--black);
+    --focus-box-shadow: 2px 2px 0 var(--black);
+
+    --header-block-padding: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem);
+    --header-logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+
+    --card-image-block-size: clamp(23.1875rem, 16.0352rem + 30.5164vw, 43.5rem);
+
+    --dialog-inline-size: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+}
